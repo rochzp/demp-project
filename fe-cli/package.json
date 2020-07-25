@@ -1,0 +1,27 @@
+{
+  "name": "fe-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "fe": "./bin/fe.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.2",
+    "ora": "^4.0.5",
+    "semver": "^7.3.2",
+    "shelljs": "^0.8.4"
+  },
+  "engines": {
+    "node": ">=8.9"
+  }
+}
